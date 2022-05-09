@@ -11,4 +11,9 @@ const toDoSlice = createSlice({
     ],
   },
 });
+export const {
+  loadToDoS: loadToDoSActionCreator,
+  addToDoS: addToDoSActionCreator,
+  removeToDos: removeToDosActionCreator,
+} = toDoSlice.actions;
 export default toDoSlice.reducer;
