@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 
 const toDoSlice = createSlice({
-  name: "to do",
+  name: "to-do",
   initialState: [],
   reducers: {
     loadToDoS: (projects, action) => [...action.payload],
@@ -11,9 +11,11 @@ const toDoSlice = createSlice({
     ],
   },
 });
+
 export const {
   loadToDoS: loadToDoSActionCreator,
   addToDoS: addToDoSActionCreator,
   removeToDos: removeToDosActionCreator,
 } = toDoSlice.actions;
+
 export default toDoSlice.reducer;
