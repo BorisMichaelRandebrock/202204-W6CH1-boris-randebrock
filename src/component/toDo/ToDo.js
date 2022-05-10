@@ -1,7 +1,7 @@
 const ToDo = ({ todo: { name, id, done } }) => {
   return (
-    <li>
-      <h1>{name}</h1>
+    <li className="li">
+      <h2>{name}</h2>
     </li>
   );
 };
