@@ -1,12 +1,12 @@
 const toDoArray = [
   {
     id: 1,
-    name: "string",
+    name: "shopping",
     done: false,
   },
   {
     id: 2,
-    name: "string",
+    name: "cleaning",
     done: false,
   },
 ];

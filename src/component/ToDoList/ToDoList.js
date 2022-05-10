@@ -8,7 +8,7 @@ const ToDoList = () => {
   return (
     <>
       <h1>To Do List</h1>
-      <ul>
+      <ul className="ul">
         {todo.map((todo) => (
           <ToDo todo={todo} />
         ))}

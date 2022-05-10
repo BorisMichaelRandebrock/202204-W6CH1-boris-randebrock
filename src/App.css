@@ -12,6 +12,9 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+h1 {
+  text-align: center;
+}
 
 .App-header {
   background-color: #282c34;
@@ -26,6 +29,22 @@
 
 .App-link {
   color: #61dafb;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+li {
+  background-color: aliceblue;
+  border-radius: 8px;
+  border: beige;
+  border-style: groove;
+  list-style: none;
+  text-align: center;
+  width: 300px;
+  padding-top: 10px;
+  margin-top: 10px;
 }
 
 @keyframes App-logo-spin {
